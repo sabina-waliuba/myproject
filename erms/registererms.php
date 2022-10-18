@@ -80,7 +80,7 @@ return true;
               <div class="text-center">
                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
               </div>
-              <p style="font-size:16px; color:red" align="center"> <?php if($msg){
+              <p style="font-size:16px; color:green" align="center"> <?php if($msg){
     echo $msg;
   }  ?> </p>
               <form class="user" name="register" method="post" onsubmit="return checkpass();">

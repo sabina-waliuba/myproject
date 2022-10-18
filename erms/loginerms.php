@@ -46,7 +46,7 @@ if(isset($_POST['login']))
 <body class="bg-gradient-primary">
 
   <div class="container">
-    <h3 align="center" style="color: black; padding-top: 2%">Employee Record Managment System</h3>
+    <h3 align="center" style="color: black; padding-top: 2%">Advanced Employee Managment System</h3>
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
@@ -65,7 +65,7 @@ if(isset($_POST['login']))
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                   </div>
-                  <p style="font-size:16px; color:red" align="center"> <?php if($msg){
+                  <p style="font-size:16px; color:green" align="center"> <?php if($msg){
     echo $msg;
   }  ?> </p>
                   <form class="user" method="post" action="">
